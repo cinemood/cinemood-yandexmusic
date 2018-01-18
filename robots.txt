@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /page2160432.html
+Disallow: /yandexmusic
+Disallow: /page1978284.html
+Disallow: /ivi
+Disallow: /page1172668.html
+Disallow: /megafon
+Disallow:
+Sitemap: https://promo.cinemood.ru/sitemap.xml
+Host: https://promo.cinemood.ru

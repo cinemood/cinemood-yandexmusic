@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="Ru">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+<meta name="theme-color" content="#0f9ad2">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/android-icon-96x96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<title>Премьеры кино на CINEMOOD</title>
+<style>
+@font-face {
+  font-family: 'GothamPro';
+  src: url('font/GothamPro.eot');
+  src: url('font/GothamPro.woff2') format('woff2'),
+  url('font/GothamPro.woff') format('woff'),
+  url('font/GothamPro.ttf') format('truetype'),
+  url('font/GothamPro.svg#GothamPro') format('svg'),
+  url('font/GothamPro.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamPro';
+  src: url('font/GothamPro-Bold.eot');
+  src: url('font/GothamPro-Bold.woff2') format('woff2'),
+  url('font/GothamPro-Bold.woff') format('woff'),
+  url('font/GothamPro-Bold.ttf') format('truetype'),
+  url('font/GothamPro-Bold.svg#GothamPro') format('svg'),
+  url('font/GothamPro-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #4a4a4a;
+  font-size: 16px;
+  position: relative;
+  font-family: 'GothamPro', sans-serif;
+  font-weight: 400;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary, blockquote { display: block; color: inherit; }
+h1, h2 { margin-bottom: 15px; text-align: inherit; color: #444;}
+a { cursor: pointer; color: inherit; font-size: inherit; text-decoration: underline; }
+a:hover, a:focus, a:active, input:focus, textarea:focus, button:focus, .btn:focus { outline: 0; }
+.text-center { text-align: center !important }
+.text-right { text-align: right !important }
+.btn {
+  padding: 20px 40px;
+  border-radius: 60px;
+  background: #f7cd46;
+  text-decoration: none;
+  display: inline-block;
+  color: #4a4a4a;
+  font-size: 18px;
+  font-weight: 700;
+}
+.i-bl {display: inline-block; vertical-align: top;}
+.container { max-width: 1160px; margin: 0 auto; padding: 0 15px; }
+.container.min { max-width: 990px;}
+.clearfix:after,
+.row:after,
+.container:after,
+[class^='col-']:after,
+[class*=' col-']:after { clear: both }
+.clearfix:before, .clearfix:after,
+.row:before, .row:after,
+.container:before, .container:after,
+[class^="col-"]:before, [class*=" col-"]:before,
+[class^="col-"]:after, [class*=" col-"]:after { content: ' '; display: table; }
+[class^="col-"], [class*=" col-"] { float: left; padding: 0 15px; min-height: 1px; display: block; }
+[class^="col-r-"], [class*=" col-r-"] { float: right }
+.row { margin: 0 -15px }
+.col-12, .col-r-12 { width: 100% }
+.col-11, .col-r-11 { width: 91.66666666% }
+.col-10, .col-r-10 { width: 83.33333333% }
+.col-9, .col-r-9 { width: 75% }
+.col-8, .col-r-8 { width: 66.66666666% }
+.col-7, .col-r-7 { width: 58.33333333% }
+.col-6, .col-r-6 { width: 50% }
+.col-5, .col-r-5 { width: 41.66666666% }
+.col-4, .col-r-4 { width: 33.33333333% }
+.col-3, .col-r-3 { width: 25% }
+.col-2, .col-r-2 { width: 16.66666666% }
+.col-1, .col-r-1 { width: 8.333333333% }
+#header {background: url(img/topimg.jpg) 50% 50% no-repeat; background-size: cover;}
+#header .logo {padding: 40px 0;}
+#header .logo img {margin-right: 20px;}
+#header .offer {padding: 70px 0;}
+#header .offer h1 {max-width: 550px; margin-bottom: 20px; font-size: 52px; font-family: 'Arial'; color: #fff; font-weight: 600;}
+#header .offer p {font-size: 26px; color: #fff;}
+#header .offer .subtitle {color: #fff; margin-bottom: 50px; line-height: 150%;}
+
+#descript {padding: 100px 0; background: #f7cd46;}
+#descript p {font-size: 26px; line-height: 36px;}
+
+#features {padding: 100px 0 50px; background: #eee;}
+#features .item {margin: 0 0 60px;}
+#features .item h3 {margin-bottom: 20px; font-size: 24px; font-weight: 700;}
+#features .item p {line-height: 150%;}
+#features .item img {max-width: 40px; height: auto;}
+
+#about {padding: 100px 0}
+#about h2 {font-weight: 700; font-size: 36px; line-height: 120%; margin-bottom: 80px;}
+#about p {font-size: 26px; line-height: 150%; margin-bottom: 30px;}
+#about .topimg {margin: 25px auto; display: block;}
+#about .item {text-align: center; font-size: 13px; margin-bottom: 30px;}
+#about .item img {display: block; margin: 0 auto; height: 42px; width: auto; margin-bottom: 10px;}
+#about img {max-width: 100%;}
+
+#footer { padding: 70px 0; background: #000;}
+@media only screen and (max-width: 1024px) {
+  .col-tab-12, .col-tab-r-12 { width: 100% }
+  .col-tab-11, .col-tab-r-11 { width: 91.66666666% }
+  .col-tab-10, .col-tab-r-10 { width: 83.33333333% }
+  .col-tab-9, .col-tab-r-9 { width: 75% }
+  .col-tab-8, .col-tab-r-8 { width: 66.66666666% }
+  .col-tab-7, .col-tab-r-7 { width: 58.33333333% }
+  .col-tab-6, .col-tab-r-6 { width: 50% }
+  .col-tab-5, .col-tab-r-5 { width: 41.66666666% }
+  .col-tab-4, .col-tab-r-4 { width: 33.33333333% }
+  .col-tab-3, .col-tab-r-3 { width: 25% }
+  .col-tab-2, .col-tab-r-2 { width: 16.66666666% }
+  .col-tab-1, .col-tab-r-1 { width: 8.333333333% }
+  #about {padding: 0 0 60px;}
+}
+@media only screen and (max-width: 550px) {
+  .col-mob-12, .col-mob-r-12 { width: 100% }
+  .col-mob-11, .col-mob-r-11 { width: 91.66666666% }
+  .col-mob-10, .col-mob-r-10 { width: 83.33333333% }
+  .col-mob-9, .col-mob-r-9 { width: 75% }
+  .col-mob-8, .col-mob-r-8 { width: 66.66666666% }
+  .col-mob-7, .col-mob-r-7 { width: 58.33333333% }
+  .col-mob-6, .col-mob-r-6 { width: 50% }
+  .col-mob-5, .col-mob-r-5 { width: 41.66666666% }
+  .col-mob-4, .col-mob-r-4 { width: 33.33333333% }
+  .col-mob-3, .col-mob-r-3 { width: 25% }
+  .col-mob-2, .col-mob-r-2 { width: 16.66666666% }
+  .col-mob-1, .col-mob-r-1 { width: 8.333333333% }
+  #header .offer h1 {font-size: 42px;}
+}
+</style>
+</head>
+<body>
+<header id="header">
+  <div class="container">
+    <div class="logo">
+      <img src="img/ym.png" srcset="img/ym-2x.png 2x" alt="Яндекс.Музыка">
+    </div>
+    <div class="offer">
+      <h1>Слушай Яндекс.Музыку</h1>
+      <p class="subtitle">и выигрывай портативный<br>проектор CINEMOOD</p>
+      <p><a href="#form" class="btn">Участвовать в конкурсе</a></p>
+    </div>
+  </div>
+</header>
+<div id="descript">
+  <div class="container min">
+    <p class="text-center">Музыка для всей семьи теперь доступна с Яндекс.Музыкой<br>в российском проекторе CINEMOOD! Это значит, что любимые детские мультфильмы и песни доступны всегда под рукой в одном проекторе.</p>
+  </div>
+</div>
+<section id="features">
+  <div class="container min">
+    <div class="row">
+      <div class="col-6 col-tab-12 item">
+        <div class="row">
+          <div class="col-2 text-right">
+            <img src="img/hand.svg" alt="Проектор с ладонь">
+          </div>
+          <div class="col-10">
+            <h3>Проектор с ладонь</h3>
+            <p>CINEMOOD легко взять с собой. С габаритами 8x8 сантиметров он поместится в любую сумку</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-tab-12 item">
+        <div class="row">
+          <div class="col-2 text-right">
+            <img src="img/dynamic.svg" alt="Встроенный динамик">
+          </div>
+          <div class="col-10">
+            <h3>Встроенный динамик</h3>
+            <p>CINEMOOD легко взять с собой. С габаритами 8x8 сантиметров он поместится в любую сумку</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-tab-12 item">
+        <div class="row">
+          <div class="col-2 text-right">
+            <img src="img/charge.svg" alt="До 5 часов автономного воспроизведения">
+          </div>
+          <div class="col-10">
+            <h3>До 5 часов автономного воспроизведения</h3>
+            <p>Разверните кинотеатр в гостях у друзей, на крыше загородного дома или в палатке на природе</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-tab-12 item">
+        <div class="row">
+          <div class="col-2 text-right">
+            <img src="img/wifi.svg" alt="Обновления по Wi-Fi">
+          </div>
+          <div class="col-10">
+            <h3>Обновления по Wi-Fi</h3>
+            <p>CINEMOOD работает на собственной операционной системе, в которую мы регулярно добавляем новые функции</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-tab-12 item">
+        <div class="row">
+          <div class="col-2 text-right">
+            <img src="img/correct.svg" alt="Автокоррекция изображения">
+          </div>
+          <div class="col-10">
+            <h3>Автокоррекция изображения</h3>
+            <p>Специальный алгоритм делает форму экрана ровной под любым углом, относительно вертикальной оси</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-tab-12 item">
+        <div class="row">
+          <div class="col-2 text-right">
+            <img src="img/mute.svg" alt="Бесшумная работа">
+          </div>
+          <div class="col-10">
+            <h3>Бесшумная работа</h3>
+            <p>Мы реализовали пассивное охлаждение проектора, поэтому вы не услышите шума вентилятора</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="container min">
+  <div class="row">
+    <div class="col-6 col-tab-12 text-center">
+      <div><img class="topimg" src="img/cube.jpg" srcset="img/cube-2x.jpg 2x" alt="Cinemood"></div>
+    </div>
+    <div class="col-6 col-tab-12">
+      <h2>Музыка и фильмы в одной коробочке</h2>
+      <p>С проектором CINEMOOD развлечение начнётся в одно нажатие кнопки!</p>
+      <p>Выбирайте сказки из офлайн-библиотеки CINEMOOD, смотрите фильмы и сериалы с помощью онлайн-сервисов и слушайте музыку без остановки со встроенной колонкой и сервисом Яндекс.Музыка.</p>
+    </div>
+  </div>
+</section>
+<section id="form">
+  <iframe src="https://forms.yandex.ru/surveys/6610/" frameborder="0" name="<cinemood>"></iframe>
+</section>
+<footer id="footer" class="text-center">
+  <img src="img/logo.png" srcset="img/logo-2x.png 2x" alt="Cinemood">
+</footer>
+<!--<script src='http://code.jquery.com/jquery-3.1.0.min.js'></script>-->
+<!--<script src='js/script.js'></script>-->
+</body>
+</html>
